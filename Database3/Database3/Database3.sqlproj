@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>Database1</Name>
+    <Name>Database3</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{98f6f331-8443-4414-8eda-71280ee88e74}</ProjectGuid>
+    <ProjectGuid>{3dc5ef42-f6b4-452a-aa26-3006502ac1f2}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureV12DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>Database1</RootNamespace>
-    <AssemblyName>Database1</AssemblyName>
+    <RootNamespace>Database3</RootNamespace>
+    <AssemblyName>Database3</AssemblyName>
     <ModelCollation>1033, CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -60,6 +60,5 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Table1.sql" />
-    <Build Include="Table2.sql" />
   </ItemGroup>
 </Project>
