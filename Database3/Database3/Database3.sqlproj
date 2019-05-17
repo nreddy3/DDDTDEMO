@@ -86,4 +86,7 @@
   <ItemGroup>
     <Build Include="Table1.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Script1.sql" />
+  </ItemGroup>
 </Project>
